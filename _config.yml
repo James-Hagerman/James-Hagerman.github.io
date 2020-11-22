@@ -1,7 +1,7 @@
 # --- Required options --- #
 
 # Name of website
-title: Portfolio
+title: James Hagerman
 
 # Your name to show in the footer
 author: James Hagerman
@@ -112,13 +112,13 @@ footer-link-col: "#404040"
 # --- Web Analytics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: "G-LJ020CBYDW"
+gtag: "G-LJ020CBYDW"
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
-#google_analytics: "253759201"
+google_analytics: "253759201"
 
 # Google Tag Manager ID
-#gtm: "G-LJ020CBYDW"
+gtm: "G-LJ020CBYDW"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
