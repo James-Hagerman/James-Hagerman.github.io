@@ -11,9 +11,9 @@ author: James Hagerman
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Lambda School: "https://lambdaschool.com/"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Author's home: "https://www.linkedin.com/in/james-w-hagerman/"
 
 # --- Logo --- #
 
@@ -34,12 +34,12 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "jameswhager@gmail.com"
-  facebook: James Hagerman
-  github: James-Hagerman
+  email: "jameswhagerman@gmail.com"
+#   facebook: James Hagerman
+  github: https://github.com/James-Hagerman
 #  twitter: https://www.linkedin.com/in/james-hagerman-363a501b6/
 #  reddit: yourname
-  linkedin: https://www.linkedin.com/in/james-hagerman-363a501b6/
+  linkedin: https://www.linkedin.com/in/james-w-hagerman/
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -58,13 +58,13 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: This website is a virtual proof that I'm awesome
+# rss-description: This website is a virtual proof that I'm awesome
 
 # --- General options --- #
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: false
+  twitter: True
   facebook: true
   linkedin: true
   github: true
@@ -72,26 +72,26 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "JamesHagerman.com"
+# url-pretty: "JamesHagerman.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "Data, Science, data science, tech, technology, machine learning, neural networks, james, james hagerman"
 
 # --- Colours / background image --- #
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#54718a"
+navbar-col: "#007ba7"
 navbar-text-col: "#404040"
 navbar-border-col: "#5883B0"
 page-col: "#FFFFFF"
 text-col: "#404040"
 link-col: "#008AFF"
 hover-col: "#569bcc"
-footer-col: "#54718a"
+footer-col: "#007ba7"
 footer-text-col: "#404040"
 footer-link-col: "#404040"
 
