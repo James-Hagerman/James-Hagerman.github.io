@@ -84,14 +84,14 @@ keywords: "Data, Science, data science, tech, technology, machine learning, neur
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#54718a"
+navbar-col: "#007ba7"
 navbar-text-col: "#404040"
-navbar-border-col: "#007ba7"
+navbar-border-col: "#5883B0"
 page-col: "#FFFFFF"
 text-col: "#404040"
 link-col: "#008AFF"
 hover-col: "#569bcc"
-footer-col: "#54718a"
+footer-col: "#007ba7"
 footer-text-col: "#404040"
 footer-link-col: "#404040"
 
