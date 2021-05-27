@@ -2,7 +2,7 @@
 layout: post
 title: Contraceptive Use in Indonesia
 subtitle: Predicts whether or not a woman in Indonesia is taking Long-term, Short-term, or No contraception.
-github: https://github.com/James-Hagerman/Contraceptive_use_in_indonesia
+gh-repo: https://github.com/James-Hagerman/Contraceptive_use_in_indonesia
 tags: [Contraceptive, Health, Womens Rights]
 ---
 
