@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Contraceptive Use in Indonesia
-subtitle: This article explores the correlation between age and suicide in America
-gh-repo: https://github.com/James-Hagerman/BW_1
-gh-badge: [star, fork, follow]
-tags: [test]
-comments: true
+subtitle: Explores the correlation between age, location, and suicide rate in North America
+cover-img: /assets/img/suiciderate.jpg
+thumbnail-img: /assets/img/suicideratethumbnail.jpg
+share-img: /assets/img/suiciderate.jpg
+tags: [Mental Health, Depression, Suicide]
 ---
 
 This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
