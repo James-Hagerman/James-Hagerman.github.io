@@ -8,7 +8,6 @@ thumbnail-img: /assets/img/airbnb-pred.JPG
 tags: [Airbnb, Machine Learning, Neural Networks]
 comments: true
 ---
-# AirBnB Predictor
 
 ### An application to predict the price of AirBnb lisings.
 
