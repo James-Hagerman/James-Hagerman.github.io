@@ -35,7 +35,7 @@ Because Airbnb listing information contains a mixture of categorical and text da
 
 
 ### Data
-Data gotten from Kaggle: [AirBnB Listings in Major US Cities](https://www.kaggle.com/rudymizrahi/airbnb-listings-in-major-us-cities-deloitte-ml?select=train.csv)
+Data acquired from Kaggle: [AirBnB Listings in Major US Cities](https://www.kaggle.com/rudymizrahi/airbnb-listings-in-major-us-cities-deloitte-ml?select=train.csv)
 
 
 
