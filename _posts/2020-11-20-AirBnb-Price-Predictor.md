@@ -8,9 +8,6 @@ gh-badge: [star, fork, follow]
 tags: [Airbnb, Machine Learning, Neural Networks]
 comments: true
 ---
-
-### An application to predict the price of AirBnb lisings.
-
 As a host, it can be a fine art trying to decide what price to set for your AirBnB listing. It's hard to get a sense of a competitive market rate for listings with features similar to yours. You want to set a price high enough to return some profit but not too high to send people to your competition.
 
 Big corporations and businesses with hundreds or even thousands of listings may not need to deal with this. On the other hand, independent mom-and-pop hosts like yourself have to grapple with this catch-22.
