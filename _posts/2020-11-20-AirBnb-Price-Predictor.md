@@ -31,7 +31,7 @@ Check out [our app](https://airbnbpredictor.herokuapp.com/) today and let us hel
 
 ## Machine Learning pipeline
 
-Because Airbnb listing information contains a mixture of categorical and text data(like the description of the listing), we made a Keras model that can take in and make predictions on both text and numerical/categorical data. Because our model is required to work with multiple data types, we ran the text and categorical data through separate preprocessing pipelines. First, we took the Description and Amenities feataures and fed them through the BOW and sequence embedding functions before finally passing it to the model. We then performed ordinal encoding on the categorical feaetures before passing those into the model. Check out the notebook for the exact steps taken.
+Because Airbnb listing information contains a mixture of categorical and text data(like the description of the listing), we made a Keras model that can take in and make predictions on both text and numerical/categorical data. Because our model is required to work with multiple data types, we ran the text and categorical data through separate preprocessing pipelines. First, we took the Description and Amenities features and passed them through the Bag-of-Words and sequence embedding functions before finally passing it to the model. We then performed ordinal encoding on the categorical features before passing those into the model. Refer to the notebook for the exact steps taken.
 
 
 ### Data
