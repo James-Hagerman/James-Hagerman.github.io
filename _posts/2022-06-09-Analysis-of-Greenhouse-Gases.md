@@ -14,9 +14,9 @@ tags: [Data Engineering, Statistics, Dashboard, Climate Change]
 
 The objective was to analyze and develop an interactive dashboard to explore the correlations among greenhouse gases/pollutants, sea level, natural disasters, and temperature. The project aimed to address three key questions: the correlation between sea level and natural disasters, sea level and greenhouse gases, and the relationship between natural disasters and greenhouse gases.
 
-To begin, I sourced data from four different datasets, each from a distinct reliable source. However, since the data came from multiple sources, I had to dedicated significant effort in cleaning and transforming it using Jupyter Notebook. The initial step involved loading and cleaning the data, followed by conducting preliminary data exploration to gain insights into the dataset.
+To begin, I sourced data from four different datasets, each from a distinct reliable source. However, since the data came from multiple sources, I had to dedicate significant effort to cleaning and transforming it using Jupyter Notebook. The initial step involved loading and cleaning the data, followed by conducting preliminary data exploration to gain insights into the dataset.
 
-To facilitate analysis, I merged the formatted tables, considering variations in country-specific and worldwide data. With the merged dataset, I proceeded to create heatmaps to identify potential correlations among the variables of interest. Additionally, I conducted hypothesis testing to assess the strength and significance of these correlations.
+To facilitate analysis, I merged the formatted tables, considering variations in country-specific and worldwide data. With the merged dataset, I proceeded to create heat maps to identify potential correlations among the variables of interest. Additionally, I conducted hypothesis testing to assess the strength and significance of these correlations.
 
 The results of the hypothesis testing yielded valuable insights. Firstly, in the case of sea level and natural disasters, an R-value of 0.90 suggested a strong positive correlation. This implies that as sea levels rise, there is a notable tendency for an increased occurrence of natural disasters. The exceptionally low P-value of 1.76e-45 provides strong statistical evidence to reject the null hypothesis of no correlation.
 
@@ -35,13 +35,13 @@ To enhance data exploration and accessibility, I developed an interactive dashbo
 <span style="color:gray">*Dashboard to view the relationship between greenhouse emissions and number of natural disasters*</span>
 ![](/assets/img/ghg_num_disasters_page.PNG)
 
-In conclusion, one of the most significant findings of this project was the strong correlation between sea level and the occurrence of natural disasters. As sea levels rise, there is a notable tendency for an increased number of natural disasters. This emphasizes the critical role of sea level in influencing the frequency and severity of such events.
+In conclusion, one of the most significant findings of this project was the strong correlation between sea levels and the occurrence of natural disasters. As sea levels rise, there is a notable tendency for an increased number of natural disasters. This emphasizes the critical role of sea level in influencing the frequency and severity of such events.
 
 To visualize this correlation, a linear regression plot has been included below:
 
 ![](/assets/img/sea_lvl_disasters_plt.PNG)
 
-This plot further illustrates the positive relationship between sea level and natural disasters, reaffirming the project's findings. The comprehensive analysis, interactive dashboard, and insightful conclusions of this project highlight the significance of understanding the correlations among greenhouse gases, sea level, natural disasters, and their environmental implications.
+This plot further illustrates the positive relationship between sea levels and natural disasters, reaffirming the project's findings. The comprehensive analysis, interactive dashboard, and insightful conclusions of this project highlight the significance of understanding the correlations among greenhouse gases, sea levels, natural disasters, and their environmental implications.
 
 ****
 
