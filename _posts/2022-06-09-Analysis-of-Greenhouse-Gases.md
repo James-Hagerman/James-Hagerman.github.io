@@ -25,22 +25,27 @@ Lastly, exploring the relationship between natural disasters and greenhouse gase
 To enhance data exploration and accessibility, I developed an interactive dashboard using Power BI. The dashboard allows users to explore and visualize the analyzed data, providing a comprehensive understanding of the correlations and their implications.
 
 *Dashboard showing an overview of greenhouse emissions by country and by year*
-![](/assets/img/ghg_greenhouse_main_page.png)
+![](/assets/img/ghg_greenhouse_main_page.jpg)
 
 *Dashboard to view the relationship and greenhouse emissions sea level*
-![](/assets/img/ghg_sea_level_page.png)
+![](/assets/img/ghg_sea_level_page.jpg)
 
 *Dashboard to view the relationship between greenhouse emissions and number of natural disasters*
-![](/assets/img/ghg_num_disasters_page.png)
+![](/assets/img/ghg_num_disasters_page.jpg)
 
-In conclusion, this project successfully analyzed the correlations among greenhouse gases/pollutants, sea level, natural disasters, and temperature. The findings suggest significant associations between sea level and natural disasters, as well as between natural disasters and greenhouse gases/pollutants. The developed dashboard empowers users to further explore and comprehend the insights derived from the project.
+In conclusion, one of the most significant findings of this project was the strong correlation between sea level and the occurrence of natural disasters. As sea levels rise, there is a notable tendency for an increased number of natural disasters. This emphasizes the critical role of sea level in influencing the frequency and severity of such events.
 
+To visualize this correlation, a linear regression plot has been included below:
+
+![](/assets/img/sea_lvl_disasters_plt.jpg)
+
+This plot further illustrates the positive relationship between sea level and natural disasters, reaffirming the project's findings. The comprehensive analysis, interactive dashboard, and insightful conclusions of this project highlight the significance of understanding the correlations among greenhouse gases, sea level, natural disasters, and their environmental implications.
 ---
 ### Data Sources: 
--EMDAT (2020): International Disaster Database *Natural Disaster data* [Link](https://ourworldindata.org/grapher/number-of-natural-disaster-events)
--OECD (2022): "Air and climate: Greenhouse gas emissions by source", OECD Environment Statistics *Greenhouse Emissions by Year and Country data* [Link](https://www.oecd-ilibrary.org/environment/data/oecd-environment-statistics/greenhouse-gas-emissions_data-00594-en)
+- EMDAT (2020): International Disaster Database *Natural Disaster data* [Link](https://ourworldindata.org/grapher/number-of-natural-disaster-events)
+- OECD (2022): "Air and climate: Greenhouse gas emissions by source", OECD Environment Statistics *Greenhouse Emissions by Year and Country data* [Link](https://www.oecd-ilibrary.org/environment/data/oecd-environment-statistics/greenhouse-gas-emissions_data-00594-en)
 
--UHSLC (2020): Estimate of Data for the Changes in Sea-Level *Sea-Level data* [Link](https://datahub.io/ismail.shahzad/rise-in-sea-level)
+- UHSLC (2020): Estimate of Data for the Changes in Sea-Level *Sea-Level data* [Link](https://datahub.io/ismail.shahzad/rise-in-sea-level)
 
--NASA (2021): Global Climate Change Vital Signs of the Planet *Temperature Data* [Link](https://data.giss.nasa.gov/gistemp/graphs/graph_data/Global_Mean_Estimates_based_on_Land_and_Ocean_Data/graph.txt)
+- NASA (2021): Global Climate Change Vital Signs of the Planet *Temperature Data* [Link](https://data.giss.nasa.gov/gistemp/graphs/graph_data/Global_Mean_Estimates_based_on_Land_and_Ocean_Data/graph.txt)
 
