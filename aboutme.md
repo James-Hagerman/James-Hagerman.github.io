@@ -7,14 +7,16 @@ subtitle: “Learning is a Lifelong Process” -Peter Drucker
 My name is James Hagerman. I am a:
 
 - Data Scientist
-- Chemist
+- Data Engineer
 - Builder
 - Learner
 
 ### My story
 
-Since I was in middle school I loved building things, a gas-powered blow-dart gun, a small crossbow made of popsicle sticks, fireworks, and anything else a 13-year-old could get away with building before his mother put a stop to it.
+As a data enthusiast, I am passionate about leveraging data to drive business decisions and create value for organizations. With expertise in data engineering, data analysis, data science, machine learning, and cloud engineering, I bring a well-rounded skill set to any data-driven project.
 
-I have been an engineer for as long as I can remember. I knew since middle school that I wanted to get a degree in Chemical Engineering. It wasn't until recently, after taking math classes and physics classes in college that I didn't know what I wanted to do. There were so many options, so many things that piqued my interest. Then I discovered Data Science. From then on I began pursuing a career in Data Science.
+I have experience in designing, building, and maintaining data pipelines, as well as analyzing data to uncover insights and inform business decisions. I am skilled in programming languages such as Python, SQL, and have experience working with big data technologies like Apache Airflow, and Google Cloud Dataflow.
 
-At Lambda school I spent six months learning all of the fundamentals needed to become a notable Data Scientist. I learned Python, Data Analysis, Machine Learning, Neural Networks, Computer Science, how to work on a team to deliver viable products, and most importantly at Lambda, I learned the ability to successfully retain new concepts.
+Additionally, I have experience building and deploying machine learning models in cloud environments like Google Cloud Platform (GCP). I am well-versed in GCP services such as BigQuery, Dataflow, and AI Platform, and have successfully implemented machine learning projects.
+
+I am always seeking new challenges and opportunities to further develop my skills and knowledge in the field of data. If you're looking for a data professional who can hit the ground running, let's connect and explore potential opportunities.
