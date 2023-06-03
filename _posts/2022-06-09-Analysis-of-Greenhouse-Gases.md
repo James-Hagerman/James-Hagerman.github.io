@@ -6,7 +6,7 @@ cover-img: /assets/img/ghg_background.jpg
 thumbnail-img: /assets/img/ghg_thumbnail.jpg
 share-img: /assets/img/ghg_background.jpg
 gh-repo: https://github.com/James-Hagerman/tek-hagerman-james-capstone2
-gh-badge: [star, fork, follow]
+gh-badge: [star, fork]
 tags: [Data Engineering, Statistics, Dashboard, Climate Change]
 ---
 

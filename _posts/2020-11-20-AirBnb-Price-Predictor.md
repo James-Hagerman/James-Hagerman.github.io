@@ -4,7 +4,7 @@ title: AirBnB Price Predictor
 subtitle: An application for optimizing the price of your Airbnb listings.
 thumbnail-img: /assets/img/airbnb-pred.PNG
 gh-repo: https://github.com/DS-BW-DSFT-57/AirBnB-Predictor
-gh-badge: [star, fork, follow]
+gh-badge: [star, fork]
 tags: [Airbnb, Machine Learning, Neural Networks]
 comments: true
 ---
