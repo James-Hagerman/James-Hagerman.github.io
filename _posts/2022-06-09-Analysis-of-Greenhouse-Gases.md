@@ -2,31 +2,45 @@
 layout: post
 title: Analysis of the Effects of Greenhouse Gases
 subtitle: Explores the correlation between Greenhouse Gases, Pollutants, Sea Level, and Natural Disasters
-cover-img: /assets/img/suiciderate.jpg
-thumbnail-img: /assets/img/suicideratethumbnail.jpg
-share-img: /assets/img/suiciderate.jpg
+cover-img: /assets/img/ghg_background.jpg
+thumbnail-img: /assets/img/ghg_thumbnail.jpg
+share-img: /assets/img/ghg_background.jpg
 tags: [Data Engineering, Statistics, Dashboard, Climate Change]
 ---
 
 
 
-Suicide is the tenth highest cause of death in the united states. There are approximately 135 people affected for every one suicide and around fifty thousand suicides in 2018 alone. It is obvious that suicide and depression are major problems in the US that have affected millions of people.
+The objective was to analyze and develop an interactive dashboard to explore the correlations among greenhouse gases/pollutants, sea level, natural disasters, and temperature. The project aimed to address three key questions: the correlation between sea level and natural disasters, sea level and greenhouse gases, and the relationship between natural disasters and greenhouse gases.
 
-To explore this further I have taken a dataset from the CDC that documents gun deaths between 2012 and 2014. Nearly 65,000 of these gun deaths were suicides. I looked at numerous variables involving the suicides in this dataset. The most prevalent correlation was with age.
+To begin, I sourced data from four different datasets, each from a distinct reliable source. However, since the data came from multiple sources, I had to dedicated significant effort in cleaning and transforming it using Jupyter Notebook. The initial step involved loading and cleaning the data, followed by conducting preliminary data exploration to gain insights into the dataset.
 
-![](/assets/img/suicideratehist.png)
+To facilitate analysis, I merged the formatted tables, considering variations in country-specific and worldwide data. With the merged dataset, I proceeded to create heatmaps to identify potential correlations among the variables of interest. Additionally, I conducted hypothesis testing to assess the strength and significance of these correlations.
 
-As you can see in our histogram there is a spike in suicides at around 22 years old. This is no surprise because according to the journal of Abnormal Psychology the age range with the highest reported rate of suicidal thoughts is between 16 and 25. Yet, the highest deaths due to suicides are among the 54-year-old age group.
+The results of the hypothesis testing yielded valuable insights. Firstly, in the case of sea level and natural disasters, an R-value of 0.90 suggested a strong positive correlation. This implies that as sea levels rise, there is a notable tendency for an increased occurrence of natural disasters. The exceptionally low P-value of 1.76e-45 provides strong statistical evidence to reject the null hypothesis of no correlation.
 
-Major Depressive disorder is the leading cause of disability for ages 15 to 45. Major Depressive disorder accounts for over fifty percent of suicides according to the American Foundation for Suicide Prevention. To show this I have used data from The National Survey on Drug Use and Health to make choropleth maps of the United States showing the average percentage of population per state of people between different age ranges that had a major depressive episode in 2013.
+Regarding sea level and greenhouse gases/pollutants, the hypothesis test indicated a statistically significant correlation (p-value of 0.049). However, the resulting weak positive correlation (r-value of 0.31) suggests that the association between rising sea levels and increased greenhouse gas emissions is not as pronounced.
 
-![](/assets/img/suicideheatmapdark.png)
+Lastly, exploring the relationship between natural disasters and greenhouse gases/pollutants revealed a statistically significant correlation (p-value of 0.012). The moderate positive correlation (r-value of 0.41) implies that as the instances of natural disasters increase, there is a tendency for greenhouse gas/pollutant levels to rise. These findings highlight the interconnectedness between natural disasters and the environmental impact of greenhouse gases/pollutants.
 
-![](/assets/img/suicideheatmaplight.png)
+To enhance data exploration and accessibility, I developed an interactive dashboard using Power BI. The dashboard allows users to explore and visualize the analyzed data, providing a comprehensive understanding of the correlations and their implications.
 
-This data is very interesting because it indicates that the group of people that had the highest rate of suicidal thoughts is between 18 and 25. On average 7.46 percent of people between 18 and 25 had suicidal thoughts in 2013. In comparison, the age group of 26 and above had an average of 3.44 percent of people with suicidal thoughts in 2013.
+*Dashboard showing an overview of greenhouse emissions by country and by year*
+![](/assets/img/ghg_greenhouse_main_page.png)
 
-This data indicates that suicidal thoughts or Major Depressive Episodes play a larger role in suicides of people between 18 and 25 than it does in people 26 and older. However, people that are 50 to 60 years old commit suicide at rates greater than people between the ages of 18 and 25. This begs the question: What is causing people between the ages of 50 and 60 to commit suicide at such high rates?
+*Dashboard to view the relationship and greenhouse emissions sea level*
+![](/assets/img/ghg_sea_level_page.png)
+
+*Dashboard to view the relationship between greenhouse emissions and number of natural disasters*
+![](/assets/img/ghg_num_disasters_page.png)
+
+In conclusion, this project successfully analyzed the correlations among greenhouse gases/pollutants, sea level, natural disasters, and temperature. The findings suggest significant associations between sea level and natural disasters, as well as between natural disasters and greenhouse gases/pollutants. The developed dashboard empowers users to further explore and comprehend the insights derived from the project.
 
 ---
-National Suicide Prevention Lifeline: 1–800–273–8255
+### Data Sources: 
+-EMDAT (2020): International Disaster Database *Natural Disaster data* [Link](https://ourworldindata.org/grapher/number-of-natural-disaster-events)
+-OECD (2022): "Air and climate: Greenhouse gas emissions by source", OECD Environment Statistics *Greenhouse Emissions by Year and Country data* [Link](https://www.oecd-ilibrary.org/environment/data/oecd-environment-statistics/greenhouse-gas-emissions_data-00594-en)
+
+-UHSLC (2020): Estimate of Data for the Changes in Sea-Level *Sea-Level data* [Link](https://datahub.io/ismail.shahzad/rise-in-sea-level)
+
+-NASA (2021): Global Climate Change Vital Signs of the Planet *Temperature Data* [Link](https://data.giss.nasa.gov/gistemp/graphs/graph_data/Global_Mean_Estimates_based_on_Land_and_Ocean_Data/graph.txt)
+
