@@ -27,19 +27,19 @@ Lastly, exploring the relationship between natural disasters and greenhouse gase
 To enhance data exploration and accessibility, I developed an interactive dashboard using Power BI. The dashboard allows users to explore and visualize the analyzed data, providing a comprehensive understanding of the correlations and their implications.
 
 <span style="color:gray">*Dashboard showing an overview of greenhouse emissions by country and by year*</span>
-![](/assets/img/ghg_greenhouse_main_page.JPG)
+![](/assets/img/ghg_greenhouse_main_page.PNG)
 
 <span style="color:gray">*Dashboard to view the relationship and greenhouse emissions sea level*</span>
-![](/assets/img/ghg_sea_level_page.JPG)
+![](/assets/img/ghg_sea_level_page.PNG)
 
 <span style="color:gray">*Dashboard to view the relationship between greenhouse emissions and number of natural disasters*</span>
-![](/assets/img/ghg_num_disasters_page.JPG)
+![](/assets/img/ghg_num_disasters_page.PNG)
 
 In conclusion, one of the most significant findings of this project was the strong correlation between sea level and the occurrence of natural disasters. As sea levels rise, there is a notable tendency for an increased number of natural disasters. This emphasizes the critical role of sea level in influencing the frequency and severity of such events.
 
 To visualize this correlation, a linear regression plot has been included below:
 
-![](/assets/img/sea_lvl_disasters_plt.JPG)
+![](/assets/img/sea_lvl_disasters_plt.PNG)
 
 This plot further illustrates the positive relationship between sea level and natural disasters, reaffirming the project's findings. The comprehensive analysis, interactive dashboard, and insightful conclusions of this project highlight the significance of understanding the correlations among greenhouse gases, sea level, natural disasters, and their environmental implications.
 
