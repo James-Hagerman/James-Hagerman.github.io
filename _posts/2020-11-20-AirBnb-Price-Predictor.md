@@ -24,7 +24,7 @@ Some of the services our app provides:
 * Made a mistake? Curious about how changing a certain feature of your listing will affect the optimal rate? Customize saved features and see how it affects optimal price.
 * Amenities are important! Be sure to list all your amenities to get a more accurate result.
 
-Check out [our app](https://airbnbpredictor.herokuapp.com/) today and let us help you create your best listing!
+Check out [our app](https://airbnb-predictor.onrender.com/) today and let us help you create your best listing!
 
 ## Machine Learning pipeline
 
