@@ -2,7 +2,7 @@
 layout: post
 title: Firearm Vision Application
 subtitle: A real-time object detection app that spots firearms on a live camera feed and sends out alerts.
-thumbnail-img: /assets/img/fva-detection.png
+thumbnail-img: /assets/img/fva-thumbnail.jpg
 gh-repo: https://github.com/James-Hagerman/Firearm-Detection
 gh-badge: [star, fork]
 tags: [Computer Vision, Object Detection, Deep Learning, TensorFlow]
