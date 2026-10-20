@@ -26,6 +26,11 @@ Lastly, exploring the relationship between natural disasters and greenhouse gase
 
 To enhance data exploration and accessibility, I developed an interactive dashboard using Power BI. The dashboard allows users to explore and visualize the analyzed data, providing a comprehensive understanding of the correlations and their implications.
 
+<span style="color:gray">*Interactive dashboard, click through the pages at the bottom to explore the data*</span>
+<div style="position: relative; width: 100%; padding-bottom: 79.5%; margin-bottom: 1rem;">
+<iframe title="dashboard" src="https://app.powerbi.com/view?r=eyJrIjoiMTMxNzQ5N2UtZWI2NC00ZGFkLTkyM2EtNWFjOWJmODZlOTdlIiwidCI6Ijk2NzNlOWE4LWFhNTctNDQ2MS05MzM2LTVmZDNmMDAzNGUxOCIsImMiOjZ9" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowFullScreen="true"></iframe>
+</div>
+
 <span style="color:gray">*Dashboard showing an overview of greenhouse emissions by country and by year*</span>
 ![](/assets/img/ghg_greenhouse_main_page.PNG)
 
